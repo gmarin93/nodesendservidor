@@ -11,6 +11,7 @@ const opcionesCors = {
 };
 app.use(cors(opcionesCors));
 
+
 app.use(auth);
 
 //Habilitar carpeta publica
